@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #666666;
+}
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 30px;
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+nav i {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -4px;
+    left: 6px;
+    font-size: 12px;
+}
+.nav_wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.studij, .dropbtn, .logout {
+    float: left;
+    font-size: 16px;
+    padding: 18px 20px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+.dropbtn {
+    margin-left: 6px;
+}
+.logout {
+    position: absolute;
+    right: 5%;
+}
+.studij:hover, .dropbtn:hover, .logout:hover {
+    color: #262626;
+}
+
+/* MODAL ZA ODABIR STUDIJA */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    animation-duration: .8s;
+}
+.modal-content {
+    background-color: #00447C;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    height: 380px;
+    border-radius: 4px;
+}
+.close {
+    color: #F2F2F2;
+    position: relative;
+    right: 0;
+    top: 0;
+    font-size: 28px;
+    font-weight: bold;
+}  
+.close:hover, .close:focus {
+    color: #CCC;
+    text-decoration: none;
+    cursor: pointer;
+}
+.column {
+    width: 33%;
+    float: left;
+}
+.column h2 {
+    font-size: 42px;
+    color: #F2F2F2;
+    padding-bottom: 20px;
+}
+.column a {
+    display: inline-block;
+    width: 60%;
+    color: #F2F2F2;
+    padding: 12px 0;
+    text-decoration: none;
+    font-size: 17px;
+}
+.column a:hover {
+    padding-left: 8px;
+    color: #CCC;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 62px;
+    background-color: #F2F2F2;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    border-radius: 4px;
+}
+.drop1 {
+    left: 300px;
+}
+.drop2 {
+    left: 400px;
+}
+.drop3 {
+    left: 500px;
+}
+.drop4 {
+    left: 620px;
+}
+.dropdown-content a {
+    font-size: 16px;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}  
+.show {display: block;}
+
+.main {
+    width: 70%;
+    min-height: 40px;
+    position: absolute;
+    left: 2%;
+    top: 80px;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+}
+.student {
+    width: 100%;
+}
+.student_info {
+    width: 60%;
+    float: left;
+}
+.avatar {
+    float: left;
+    vertical-align: middle;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    margin: 20px 80px 20px 30px;
+}
+.main h1 {
+    width: 100%;
+    float: left;
+    font-size: 42px;
+    margin-top: 40px;
+    padding-bottom: 12px;
+}
+.main p {
+    font-size: 17px;
+}
+
+.documents {
+    width: 24%;
+    position: absolute;
+    right: 2%;
+    top: 80px;
+}
+.documents h3 {
+    font-size: 17px;
+    padding: 12px 0 12px 20px;
+    background-color: #D9EDF7;
+    border-radius: 4px 4px 0 0;
+}
+.documents a {
+    display: inline-block;
+    width: 100%;
+    padding: 11px 0 11px 20px;
+    font-size: 15px;
+    text-decoration: none;
+    border-top: 1px solid #CCC;
+}
+.documents a:hover {
+    color: #262626;
+}
+.stipendije, .vodic {
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.vodic {
+    margin-top: 20px;
+}
