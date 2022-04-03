@@ -121,17 +121,39 @@
       </div>
   </div>
 
+  <div class="board">
+    <h2>OBAVIJESTI</h2>
+    <p>&bull; Zahvaljujući korisničkom imenu kojim raspolažete nudimo Vam mogućnost prilagođavanja stranica i bržeg saznavanja Vama bitnih obavijesti. Nemojte se zaboraviti odjaviti jer će samo Vaše stranice ostati vidljive i drugima.</p>
+    <p>&bull; Koristeći opciju Moj TVZ -> Moji predmeti izaberite predmete i sadržaje čije vijesti želite pratiti. Pretplaćivanjem na njihove vijesti, svaki puta kada se prijavite koristeći opciju Moj TVZ -> Moje vijesti možete brzo pregledati sve novosti vezane uz vaš predmet. Također pomoću popisa pretplačenih sadržaja u opciji Moji predmeti možete jednostavno i brzo doći do stranice koja Vas interesira.</p>
+  </div>
+
   <div class="documents">
-      <div class="stipendije">
-          <h3>STIPENDIJE</h3>
-          <a href="index.html">Natječaj za socijalnu stipendiju</a>
-          <a href="index.html">Izjava - kućanstvo</a>
-          <a href="index.html">Izjava - sportska</a>
-      </div>
-      <div class="vodic">
-        <h3>VODIČ ZA NOVE STUDENTE</h3>
-        <a href="index.html">Vodič za nove studente (PDF)</a>
-        <a href="index.html">Tlocrt fakulteta</a>
+    <div class="aktualno">
+      <h3>AKTUALNO</h3>
+      <a href="index.html">Pravilnik o studiranju</a>
+      <a href="index.html">Odluka o školarinama za akademsku godinu 2021./2022.</a>
+      <a href="index.html">Odluka o rokovima za Završni rad u ak. god. 2021./2022.</a>
+      <a href="index.html">Molba za promjenu statusa studenta iz redovitog u izvanrednog</a>
+    </div>
+    <div class="stipendije">
+      <h3>STIPENDIJE</h3>
+      <a href="index.html">Natječaj za socijalnu stipendiju</a>
+      <a href="index.html">Izjava - kućanstvo</a>
+      <a href="index.html">Izjava - sportska</a>
+    </div>
+    <div class="kalendar">
+      <h3>AKADEMSKI KALENDAR</h3>
+      <a href="index.html">Akademski kalendar za 2021./2022.</a>
+    </div>
+    <div class="vodic">
+      <h3>VODIČ ZA NOVE STUDENTE</h3>
+      <a href="index.html">Vodič za nove studente</a>
+      <a href="index.html">Tlocrt fakulteta</a>
+    </div>
+    <div class="spec">
+      <h3>SPECIJALISTIČKI STUDIJ</h3>
+      <a href="index.html">Natječaj - Specijalistički studij Strojarstva</a>
+      <a href="index.html">Natječaj - Specijalistički studij Digitalne forenzike</a>
     </div>
   </div>
 
