@@ -66,7 +66,7 @@
             <a href="index.html">Akademski kalendar</a>
             <a href="index.html">Raspored sati</a>
         </div>
-        <button id="logout" class="logout">Odjava</button>
+        <a id="logout" class="logout" href="logout.php">Odjava</a>
     </div>
   </nav>
 
