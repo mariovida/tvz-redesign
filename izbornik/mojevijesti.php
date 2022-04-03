@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
   <link href="../css/style.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/9f52e31018.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="img/logo.png">
+  <link rel="icon" href="../img/logo.png">
   <style>
       body {
           background-image: url("../img/background.jpg");
@@ -121,10 +121,10 @@
 
   <div class="vijest">
       <div class="vijest-header">
-          <p>Poziv na sudjelovanje u istraživanju</p>
+          <p>Erasmus natječaj za zimski semestar 2022./2023.</p>
       </div>
       <div class="vijest-body">
-          <p>Trebamo tvoju pomoć!<br/>Pokušavamo vidjeti u kolikoj si opasnosti tijekom svojih svakodnevnih online aktivnosti a da bi došli do što bolje slike stanja, treba nam puuuno pravih studentskih odgovora.<br/>Ima dosta pitanja, ali brzo se prođu a svi odgovori ostaju anonimni.<br/>Upitniku možeš pristupiti ovdje: https://forms.gle/oGFkdrMGd2i57Ddv6<br/><br/>Hvala ti na pomoći!</p>
+          <p>TVZ otvara natječaj za Erasmus mobilnost (studijski boravak i stručnu praksu) za zimski semestar akademske godine 2022/2023.<br/>Natječaj je otvoren do 1. travnja 2022., a prijava na natječaj se vrši online putem Erasmus prijavnog obrasca koji morate ispuniti te dodati tražene dokumente (potreban je login s važećom TVZ mail adresom).<br/><b>Detalje o mogućnostima, kao i financijskim iznosima pogledajte u natječaju.</b><br/>Erasmus natječaj i prezentacija nalaze se u repozitoriju "ERASMUS".<br/><br/><b>U srijedu 23. ožujka 2022. u 12 sati biti će održan i Erasmus info dan na platformi Teams.</b></p>
       </div>
   </div>
 
