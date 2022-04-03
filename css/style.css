@@ -99,6 +99,7 @@ nav i {
 .logout {
     position: absolute;
     right: 5%;
+    text-decoration: none;
 }
 .studij:hover, .dropbtn:hover, .logout:hover {
     color: #262626;
@@ -202,6 +203,7 @@ nav i {
     top: 80px;
     border-radius: 4px;
     background-color: #F2F2F2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .student {
     width: 100%;
