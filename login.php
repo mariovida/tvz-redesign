@@ -27,7 +27,7 @@
   <form method="POST" class="login_form" action="">
     <img src="img/naslov.png" alt="Naslov" class="naslov" />
     <div class="label">
-      <input type="text" id="username" name="username" class="form-control" placeholder="Korisničko ime @tvz.hr"><br/><br/>
+      <input type="mail" id="username" name="username" class="form-control" placeholder="Korisničko ime @tvz.hr"><br/><br/>
     </div>
     <div class="label">
       <input type="password" id="password" name="password" class="form-control" placeholder="Lozinka"><br/>
@@ -40,7 +40,7 @@
       if (isset($_POST['login'])) {
     	 	$user = $_POST['username'];
     	 	$pass = $_POST['password'];
-    	 	$sql = "SELECT username, password FROM users WHERE username = ?";
+    	 	$sql = "SELECT mail, lozinka FROM studenti WHERE mail = ?";
         $stmt = mysqli_stmt_init($dbc);
     	 		if (mysqli_stmt_prepare($stmt, $sql)) {
     	 			mysqli_stmt_bind_param($stmt, 's', $user);
