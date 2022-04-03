@@ -195,7 +195,7 @@ nav i {
 .dropdown-content a:hover {background-color: #ddd;}  
 .show {display: block;}
 
-.main {
+.main, .board {
     width: 70%;
     min-height: 40px;
     position: absolute;
@@ -225,10 +225,23 @@ nav i {
     float: left;
     font-size: 42px;
     margin-top: 40px;
-    padding-bottom: 12px;
+    padding-bottom: 18px;
 }
 .main p {
-    font-size: 17px;
+    font-size: 18px;
+    padding-top: 8px;
+}
+.board {
+    top: 355px;
+}
+.board h2 {
+    text-align: center;
+    font-size: 32px;
+    padding: 24px 0 21px 0;
+}
+.board p {
+    font-size: 18px;
+    padding: 0 50px 18px 36px;
 }
 
 .documents {
@@ -246,7 +259,7 @@ nav i {
 .documents a {
     display: inline-block;
     width: 100%;
-    padding: 11px 0 11px 20px;
+    padding: 11px 12px 11px 20px;
     font-size: 15px;
     text-decoration: none;
     border-top: 1px solid #CCC;
@@ -254,11 +267,11 @@ nav i {
 .documents a:hover {
     color: #262626;
 }
-.stipendije, .vodic {
+.aktualno, .stipendije, .vodic, .kalendar, .spec {
     border-radius: 4px;
     background-color: #F2F2F2;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.vodic {
+.stipendije, .vodic, .kalendar, .spec {
     margin-top: 20px;
 }
