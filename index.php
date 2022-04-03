@@ -48,34 +48,34 @@
         <button id="studij" class="studij">Studij: Redovni informatika</button>
         <button onclick="openDropdown1()" class="dropbtn">TVZ<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListTVZ" class="dropdown-content drop1">
-            <a href="index.html">Obavijesti studentima</a>
-            <a href="index.html">Stručno vijeće Veleučilišta</a>
-            <a href="index.html">Stručno vijeće Odjela</a>
-            <a href="index.html">Elektroničke usluge</a>
-            <a href="index.html">Pretraživanje radova</a>
-            <a href="index.html">Imenik djelatnika</a>
-            <a href="index.html">Webmail</a>
+            <a href="index.php">Obavijesti studentima</a>
+            <a href="index.php">Stručno vijeće Veleučilišta</a>
+            <a href="index.php">Stručno vijeće Odjela</a>
+            <a href="index.php">Elektroničke usluge</a>
+            <a href="index.php">Pretraživanje radova</a>
+            <a href="index.php">Imenik djelatnika</a>
+            <a href="index.php">Webmail</a>
         </div>
         <button onclick="openDropdown2()" class="dropbtn">Moj TVZ<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListMojTVZ" class="dropdown-content drop2">
-            <a href="index.html">Moji rokovi i ispitne liste</a>
-            <a href="index.html">Moje vijesti</a>
-            <a href="index.html">Moji predmeti</a>
-            <a href="index.html">Izmjena osobnih podataka</a>
-            <a href="index.html">Moji podaci</a>
+            <a href="index.php">Moji rokovi i ispitne liste</a>
+            <a href="izbornik/mojevijesti.php">Moje vijesti</a>
+            <a href="index.php">Moji predmeti</a>
+            <a href="index.php">Izmjena osobnih podataka</a>
+            <a href="index.php">Moji podaci</a>
         </div>
         <button onclick="openDropdown3()" class="dropbtn">Moj akcije<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListMojeAkcije" class="dropdown-content drop3">
-            <a href="index.html">Izračun školarine</a>
-            <a href="index.html">Izrada molbe</a>
-            <a href="index.html">Slanje molbe</a>
+            <a href="index.php">Izračun školarine</a>
+            <a href="index.php">Izrada molbe</a>
+            <a href="index.php">Slanje molbe</a>
         </div>
         <button onclick="openDropdown4()" class="dropbtn">Nastava<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListNastava" class="dropdown-content drop4">
-            <a href="index.html">Nastavni i izvedbeni plan</a>
-            <a href="index.html">Obavijesti studentske referade</a>
-            <a href="index.html">Akademski kalendar</a>
-            <a href="index.html">Raspored sati</a>
+            <a href="index.php">Nastavni i izvedbeni plan</a>
+            <a href="index.php">Obavijesti studentske referade</a>
+            <a href="index.php">Akademski kalendar</a>
+            <a href="index.php">Raspored sati</a>
         </div>
         <a id="logout" class="logout" href="logout.php">Odjava</a>
     </div>
@@ -86,26 +86,26 @@
       <span class="close">&times;</span>
       <div class="column">
           <h2>REDOVNI</h2>
-          <a href="index.html">Redovni elektrotehnika</a>
-          <a href="index.html">Redovni graditeljstvo</a>
-          <a href="index.html">Redovni informatika</a>
-          <a href="index.html">Redovni mehatronika</a>
-          <a href="index.html">Redovni računarstvo</a>
-          <a href="index.html">Redovni strojarstvo</a>
+          <a href="index.php">Redovni elektrotehnika</a>
+          <a href="index.php">Redovni graditeljstvo</a>
+          <a href="index.php">Redovni informatika</a>
+          <a href="index.php">Redovni mehatronika</a>
+          <a href="index.php">Redovni računarstvo</a>
+          <a href="index.php">Redovni strojarstvo</a>
       </div>
       <div class="column">
         <h2>IZVANREDNI</h2>
-        <a href="index.html">Izvanredni elektrotehnika</a>
-        <a href="index.html">Izvanredni graditeljstvo</a>
-        <a href="index.html">Izvanredni informatika</a>
-        <a href="index.html">Izvanredni mehatronika</a>
-        <a href="index.html">Izvanredni računarstvo</a>
-        <a href="index.html">Redovni strojarstvo</a>
+        <a href="index.php">Izvanredni elektrotehnika</a>
+        <a href="index.php">Izvanredni graditeljstvo</a>
+        <a href="index.php">Izvanredni informatika</a>
+        <a href="index.php">Izvanredni mehatronika</a>
+        <a href="index.php">Izvanredni računarstvo</a>
+        <a href="index.php">Redovni strojarstvo</a>
       </div>
       <div class="column">
         <h2>SPECIJALISTIČKI</h2>
-        <a href="index.html">Digitalna ekonomija</a>
-        <a href="index.html">Informacijska sigurnost i digitalna forenzika</a>
+        <a href="index.php">Digitalna ekonomija</a>
+        <a href="index.php">Informacijska sigurnost i digitalna forenzika</a>
       </div>
     </div>
   </div>
@@ -117,6 +117,7 @@
             <h1><?php echo "$ime $prezime";?></h1>
             <p>Preddiplomski studij informatike (III. godina)</p>
             <p>JMBAG: <?php echo $jmbag;?></p>
+            <p>Mail: <?php echo $mail;?></p>
         </div>
       </div>
   </div>
@@ -130,30 +131,30 @@
   <div class="documents">
     <div class="aktualno">
       <h3>AKTUALNO</h3>
-      <a href="index.html">Pravilnik o studiranju</a>
-      <a href="index.html">Odluka o školarinama za akademsku godinu 2021./2022.</a>
-      <a href="index.html">Odluka o rokovima za Završni rad u ak. god. 2021./2022.</a>
-      <a href="index.html">Molba za promjenu statusa studenta iz redovitog u izvanrednog</a>
+      <a href="index.php">Pravilnik o studiranju</a>
+      <a href="index.php">Odluka o školarinama za akademsku godinu 2021./2022.</a>
+      <a href="index.php">Odluka o rokovima za Završni rad u ak. god. 2021./2022.</a>
+      <a href="index.php">Molba za promjenu statusa studenta iz redovitog u izvanrednog</a>
     </div>
     <div class="stipendije">
       <h3>STIPENDIJE</h3>
-      <a href="index.html">Natječaj za socijalnu stipendiju</a>
-      <a href="index.html">Izjava - kućanstvo</a>
-      <a href="index.html">Izjava - sportska</a>
+      <a href="index.php">Natječaj za socijalnu stipendiju</a>
+      <a href="index.php">Izjava - kućanstvo</a>
+      <a href="index.php">Izjava - sportska</a>
     </div>
     <div class="kalendar">
       <h3>AKADEMSKI KALENDAR</h3>
-      <a href="index.html">Akademski kalendar za 2021./2022.</a>
+      <a href="index.php">Akademski kalendar za 2021./2022.</a>
     </div>
     <div class="vodic">
       <h3>VODIČ ZA NOVE STUDENTE</h3>
-      <a href="index.html">Vodič za nove studente</a>
-      <a href="index.html">Tlocrt fakulteta</a>
+      <a href="index.php">Vodič za nove studente</a>
+      <a href="index.php">Tlocrt fakulteta</a>
     </div>
     <div class="spec">
       <h3>SPECIJALISTIČKI STUDIJ</h3>
-      <a href="index.html">Natječaj - Specijalistički studij Strojarstva</a>
-      <a href="index.html">Natječaj - Specijalistički studij Digitalne forenzike</a>
+      <a href="index.php">Natječaj - Specijalistički studij Strojarstva</a>
+      <a href="index.php">Natječaj - Specijalistički studij Digitalne forenzike</a>
     </div>
   </div>
 
