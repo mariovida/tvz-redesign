@@ -5,6 +5,64 @@
     font-family: 'Roboto Condensed', sans-serif;
     color: #666666;
 }
+
+/* LOGIN */
+.login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 400px;
+	border-radius: 4px;
+    text-align: center;
+    font-size: 17px;
+    background-color: #F2F2F2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.naslov {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.label {
+    position: relative;
+    top: 55px;
+}
+.login_form input {
+    width: 230px;
+    height: 25px;
+    margin-top: 0px;
+	padding: 18px 0;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #52605F;
+    border-radius: 4px;
+	background-color: #F2F2F2;
+}
+.login_form input:focus {
+    outline: none;
+}
+input.login, input.problem {
+    width: 170px;
+    height: auto;
+    font-size: 17px;
+    margin-top: 35px;
+    padding: 6px;
+    background-color: #D9EDF7;
+    border: 1px solid #00447C;
+    border-radius: 4px;
+    cursor: pointer;
+	transition: 0.1s;
+}
+input.problem {
+    margin-top: 10px;
+}
+input.login:hover, input.problem:hover {
+    background-color: #00447C;
+	color: #EEEEEE;
+}
+
 nav {
     position: absolute;
     top: 0;
