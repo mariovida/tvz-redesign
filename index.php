@@ -30,6 +30,17 @@
   <?php
   if(!isset($_SESSION['username'])) {
     header('Location: login.php');
+  } else {
+    if ($dbc) {
+      $mail = $_SESSION['username'];
+      $query = "SELECT * FROM studenti WHERE mail='$mail'";
+      $result = mysqli_query($dbc, $query);
+      while($row = mysqli_fetch_array($result)) {
+          $ime = $row['ime'];
+          $prezime = $row['prezime'];
+          $jmbag = $row['jmbag'];
+      }
+    }
   }
   ?>
   <nav>
@@ -103,9 +114,9 @@
       <div class="student">
         <img src="img/avatar.jpg" alt="Avatar" class="avatar">
         <div class="student_info">
-            <h1>Marko Marić</h1>
+            <h1><?php echo "$ime $prezime";?></h1>
             <p>Preddiplomski studij informatike (III. godina)</p>
-            <p>JMBAG: 0123456789</p>
+            <p>JMBAG: <?php echo $jmbag;?></p>
         </div>
       </div>
   </div>

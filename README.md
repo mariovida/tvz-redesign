@@ -1,7 +1,7 @@
 <h1 align="center">TVZ Intranet 🔐</h1>
 <p align="center">Redesigned website for the University of Applied Sciences</p>
 
-![image](/img/screen_home.png)
+![image](/img/screen_index.png)
 
 <h3 align="center">🛠️ In development</h3>
 
