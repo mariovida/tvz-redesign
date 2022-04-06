@@ -5,6 +5,13 @@
     font-family: 'Roboto Condensed', sans-serif;
     color: #666666;
 }
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 /* LOGIN */
 .login_form {
