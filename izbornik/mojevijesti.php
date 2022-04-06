@@ -43,19 +43,16 @@
         <div id="showListTVZ" class="dropdown-content drop1">
             <a href="../index.php">Obavijesti studentima</a>
             <a href="../index.php">Stručno vijeće Veleučilišta</a>
-            <a href="../index.php">Stručno vijeće Odjela</a>
-            <a href="../index.php">Elektroničke usluge</a>
             <a href="../index.php">Pretraživanje radova</a>
             <a href="../index.php">Imenik djelatnika</a>
             <a href="../index.php">Webmail</a>
         </div>
         <button onclick="openDropdown2()" class="dropbtn">Moj TVZ<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListMojTVZ" class="dropdown-content drop2">
-            <a href="../index.php">Moji rokovi i ispitne liste</a>
+            <a href="../index.php">Moji rokovi</a>
             <a href="mojevijesti.php">Moje vijesti</a>
             <a href="../index.php">Moji predmeti</a>
             <a href="../index.php">Izmjena osobnih podataka</a>
-            <a href="../index.php">Moji podaci</a>
         </div>
         <button onclick="openDropdown3()" class="dropbtn">Moj akcije<i class="fa-solid fa-sort-down"></i></button>
         <div id="showListMojeAkcije" class="dropdown-content drop3">
