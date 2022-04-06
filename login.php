@@ -14,13 +14,6 @@
     <title>moj.tvz.hr</title>
     <link rel="icon" href="img/logo.png">
     <style>
-      body {
-          background-image: url("img/background.jpg");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-      }
   </style>
 </head>
 <body>

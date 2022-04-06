@@ -1,7 +1,7 @@
 <h1 align="center">TVZ Intranet 🔐</h1>
 <p align="center">Redesigned website for the University of Applied Sciences</p>
 
-![image](/img/screen_index.png)
+![image](/img/show1.png)
 
 <h3 align="center">🛠️ In development</h3>
 
@@ -16,7 +16,7 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></p>
 
 
-## Access details for /admin/login.php (username & password)
+## Access details for login.php (username & password)
 ```sh
 Username: pperic@tvz.hr
 Password: malipero
