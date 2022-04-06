@@ -16,13 +16,6 @@
   <script src="https://kit.fontawesome.com/9f52e31018.js" crossorigin="anonymous"></script>
   <link rel="icon" href="../img/logo.png">
   <style>
-      body {
-          background-image: url("../img/background.jpg");
-          background-position: center;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-      }
   </style>
 </head>
 
